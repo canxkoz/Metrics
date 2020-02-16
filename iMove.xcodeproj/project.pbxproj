@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4747384323F90C9500F85A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4747384223F90C9500F85A0A /* Main.storyboard */; };
+		4747385323F92B4B00F85A0A /* PatientGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385223F92B4B00F85A0A /* PatientGeneral.swift */; };
+		4747385523F92B7D00F85A0A /* DoctorGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385423F92B7D00F85A0A /* DoctorGeneral.swift */; };
+		4747385723F92BC200F85A0A /* UserType-Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385623F92BC200F85A0A /* UserType-Choice.swift */; };
+		4747385923F92C0200F85A0A /* Patient Log In.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385823F92C0200F85A0A /* Patient Log In.swift */; };
+		4747385B23F92C2E00F85A0A /* Doctor Log In.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385A23F92C2E00F85A0A /* Doctor Log In.swift */; };
+		4747385D23F92C4B00F85A0A /* Patient Sign Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */; };
+		4747385F23F92C7100F85A0A /* Doctor Sign Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385E23F92C7100F85A0A /* Doctor Sign Up.swift */; };
+		4747386323F92D7400F85A0A /* Patient-Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747386223F92D7400F85A0A /* Patient-Home.swift */; };
+		4747386523F92EAD00F85A0A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4747386423F92EAD00F85A0A /* Info.plist */; };
+		4747386923F9312B00F85A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4747386723F9312A00F85A0A /* LaunchScreen.storyboard */; };
 		479F1F9B23F8DB3300EFA6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1F9A23F8DB3300EFA6DD /* AppDelegate.swift */; };
 		479F1F9D23F8DB3300EFA6DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1F9C23F8DB3300EFA6DD /* SceneDelegate.swift */; };
 		479F1FA023F8DB3300EFA6DD /* iMove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 479F1F9E23F8DB3300EFA6DD /* iMove.xcdatamodeld */; };
-		479F1FA223F8DB3400EFA6DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1FA123F8DB3400EFA6DD /* ContentView.swift */; };
 		479F1FA423F8DB3700EFA6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479F1FA323F8DB3700EFA6DD /* Assets.xcassets */; };
 		479F1FA723F8DB3700EFA6DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479F1FA623F8DB3700EFA6DD /* Preview Assets.xcassets */; };
-		479F1FAA23F8DB3700EFA6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479F1FA823F8DB3700EFA6DD /* LaunchScreen.storyboard */; };
 		479F1FB523F8DB3700EFA6DD /* iMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1FB423F8DB3700EFA6DD /* iMoveTests.swift */; };
 		479F1FC023F8DB3700EFA6DD /* iMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1FBF23F8DB3700EFA6DD /* iMoveUITests.swift */; };
 /* End PBXBuildFile section */
@@ -36,15 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4747384223F90C9500F85A0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		4747385223F92B4B00F85A0A /* PatientGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientGeneral.swift; sourceTree = "<group>"; };
+		4747385423F92B7D00F85A0A /* DoctorGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorGeneral.swift; sourceTree = "<group>"; };
+		4747385623F92BC200F85A0A /* UserType-Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserType-Choice.swift"; sourceTree = "<group>"; };
+		4747385823F92C0200F85A0A /* Patient Log In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patient Log In.swift"; sourceTree = "<group>"; };
+		4747385A23F92C2E00F85A0A /* Doctor Log In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor Log In.swift"; sourceTree = "<group>"; };
+		4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patient Sign Up.swift"; sourceTree = "<group>"; };
+		4747385E23F92C7100F85A0A /* Doctor Sign Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor Sign Up.swift"; sourceTree = "<group>"; };
+		4747386223F92D7400F85A0A /* Patient-Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patient-Home.swift"; sourceTree = "<group>"; };
+		4747386423F92EAD00F85A0A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		4747386623F92EBA00F85A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4747386823F9312A00F85A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Downloads/CustomLoginDemo/CustomLoginDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479F1F9723F8DB3300EFA6DD /* iMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		479F1F9A23F8DB3300EFA6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		479F1F9C23F8DB3300EFA6DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		479F1F9F23F8DB3300EFA6DD /* iMove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMove.xcdatamodel; sourceTree = "<group>"; };
-		479F1FA123F8DB3400EFA6DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		479F1FA323F8DB3700EFA6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479F1FA623F8DB3700EFA6DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		479F1FA923F8DB3700EFA6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		479F1FAB23F8DB3700EFA6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		479F1FB023F8DB3700EFA6DD /* iMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		479F1FB423F8DB3700EFA6DD /* iMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoveTests.swift; sourceTree = "<group>"; };
 		479F1FB623F8DB3700EFA6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4747384723F9121D00F85A0A /* Sign-In */ = {
+			isa = PBXGroup;
+			children = (
+				4747385623F92BC200F85A0A /* UserType-Choice.swift */,
+				4747385223F92B4B00F85A0A /* PatientGeneral.swift */,
+				4747385423F92B7D00F85A0A /* DoctorGeneral.swift */,
+				4747385823F92C0200F85A0A /* Patient Log In.swift */,
+				4747385A23F92C2E00F85A0A /* Doctor Log In.swift */,
+				4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */,
+				4747385E23F92C7100F85A0A /* Doctor Sign Up.swift */,
+			);
+			path = "Sign-In";
+			sourceTree = "<group>";
+		};
+		4747386023F92CB600F85A0A /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				4747386223F92D7400F85A0A /* Patient-Home.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		4747386123F92CD100F85A0A /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
 		479F1F8E23F8DB3300EFA6DD = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +150,14 @@
 			children = (
 				479F1F9A23F8DB3300EFA6DD /* AppDelegate.swift */,
 				479F1F9C23F8DB3300EFA6DD /* SceneDelegate.swift */,
-				479F1FA123F8DB3400EFA6DD /* ContentView.swift */,
+				4747384223F90C9500F85A0A /* Main.storyboard */,
+				4747384723F9121D00F85A0A /* Sign-In */,
+				4747386023F92CB600F85A0A /* Patient */,
+				4747386123F92CD100F85A0A /* Doctor */,
 				479F1FA323F8DB3700EFA6DD /* Assets.xcassets */,
-				479F1FA823F8DB3700EFA6DD /* LaunchScreen.storyboard */,
-				479F1FAB23F8DB3700EFA6DD /* Info.plist */,
 				479F1F9E23F8DB3300EFA6DD /* iMove.xcdatamodeld */,
+				4747386723F9312A00F85A0A /* LaunchScreen.storyboard */,
+				4747386623F92EBA00F85A0A /* Info.plist */,
 				479F1FA523F8DB3700EFA6DD /* Preview Content */,
 			);
 			path = iMove;
@@ -117,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				479F1FA623F8DB3700EFA6DD /* Preview Assets.xcassets */,
+				4747386423F92EAD00F85A0A /* Info.plist */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -243,8 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				479F1FAA23F8DB3700EFA6DD /* LaunchScreen.storyboard in Resources */,
+				4747386523F92EAD00F85A0A /* Info.plist in Resources */,
+				4747384323F90C9500F85A0A /* Main.storyboard in Resources */,
 				479F1FA723F8DB3700EFA6DD /* Preview Assets.xcassets in Resources */,
+				4747386923F9312B00F85A0A /* LaunchScreen.storyboard in Resources */,
 				479F1FA423F8DB3700EFA6DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4747385323F92B4B00F85A0A /* PatientGeneral.swift in Sources */,
 				479F1FA023F8DB3300EFA6DD /* iMove.xcdatamodeld in Sources */,
+				4747385F23F92C7100F85A0A /* Doctor Sign Up.swift in Sources */,
 				479F1F9B23F8DB3300EFA6DD /* AppDelegate.swift in Sources */,
-				479F1FA223F8DB3400EFA6DD /* ContentView.swift in Sources */,
+				4747385523F92B7D00F85A0A /* DoctorGeneral.swift in Sources */,
+				4747385723F92BC200F85A0A /* UserType-Choice.swift in Sources */,
+				4747385923F92C0200F85A0A /* Patient Log In.swift in Sources */,
+				4747385B23F92C2E00F85A0A /* Doctor Log In.swift in Sources */,
+				4747386323F92D7400F85A0A /* Patient-Home.swift in Sources */,
+				4747385D23F92C4B00F85A0A /* Patient Sign Up.swift in Sources */,
 				479F1F9D23F8DB3300EFA6DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,10 +369,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		479F1FA823F8DB3700EFA6DD /* LaunchScreen.storyboard */ = {
+		4747386723F9312A00F85A0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				479F1FA923F8DB3700EFA6DD /* Base */,
+				4747386823F9312A00F85A0A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
