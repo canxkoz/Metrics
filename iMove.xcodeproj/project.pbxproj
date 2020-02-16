@@ -10,7 +10,6 @@
 		4747384323F90C9500F85A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4747384223F90C9500F85A0A /* Main.storyboard */; };
 		4747385323F92B4B00F85A0A /* PatientGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385223F92B4B00F85A0A /* PatientGeneral.swift */; };
 		4747385523F92B7D00F85A0A /* DoctorGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385423F92B7D00F85A0A /* DoctorGeneral.swift */; };
-		4747385723F92BC200F85A0A /* UserType-Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385623F92BC200F85A0A /* UserType-Choice.swift */; };
 		4747385923F92C0200F85A0A /* Patient Log In.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385823F92C0200F85A0A /* Patient Log In.swift */; };
 		4747385B23F92C2E00F85A0A /* Doctor Log In.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385A23F92C2E00F85A0A /* Doctor Log In.swift */; };
 		4747385D23F92C4B00F85A0A /* Patient Sign Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */; };
@@ -25,6 +24,8 @@
 		479F1FA723F8DB3700EFA6DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479F1FA623F8DB3700EFA6DD /* Preview Assets.xcassets */; };
 		479F1FB523F8DB3700EFA6DD /* iMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1FB423F8DB3700EFA6DD /* iMoveTests.swift */; };
 		479F1FC023F8DB3700EFA6DD /* iMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F1FBF23F8DB3700EFA6DD /* iMoveUITests.swift */; };
+		47C2B20F23F9342E0019BE0C /* Doctor-Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C2B20E23F9342E0019BE0C /* Doctor-Home.swift */; };
+		47C2B25023F93DA30019BE0C /* UserTypeChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C2B24F23F93DA30019BE0C /* UserTypeChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,6 @@
 		4747384223F90C9500F85A0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		4747385223F92B4B00F85A0A /* PatientGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientGeneral.swift; sourceTree = "<group>"; };
 		4747385423F92B7D00F85A0A /* DoctorGeneral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorGeneral.swift; sourceTree = "<group>"; };
-		4747385623F92BC200F85A0A /* UserType-Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserType-Choice.swift"; sourceTree = "<group>"; };
 		4747385823F92C0200F85A0A /* Patient Log In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patient Log In.swift"; sourceTree = "<group>"; };
 		4747385A23F92C2E00F85A0A /* Doctor Log In.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor Log In.swift"; sourceTree = "<group>"; };
 		4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patient Sign Up.swift"; sourceTree = "<group>"; };
@@ -69,6 +69,8 @@
 		479F1FBB23F8DB3700EFA6DD /* iMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		479F1FBF23F8DB3700EFA6DD /* iMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMoveUITests.swift; sourceTree = "<group>"; };
 		479F1FC123F8DB3700EFA6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C2B20E23F9342E0019BE0C /* Doctor-Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doctor-Home.swift"; sourceTree = "<group>"; };
+		47C2B24F23F93DA30019BE0C /* UserTypeChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypeChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,13 @@
 		4747384723F9121D00F85A0A /* Sign-In */ = {
 			isa = PBXGroup;
 			children = (
-				4747385623F92BC200F85A0A /* UserType-Choice.swift */,
 				4747385223F92B4B00F85A0A /* PatientGeneral.swift */,
 				4747385423F92B7D00F85A0A /* DoctorGeneral.swift */,
 				4747385823F92C0200F85A0A /* Patient Log In.swift */,
 				4747385A23F92C2E00F85A0A /* Doctor Log In.swift */,
 				4747385C23F92C4B00F85A0A /* Patient Sign Up.swift */,
 				4747385E23F92C7100F85A0A /* Doctor Sign Up.swift */,
+				47C2B24F23F93DA30019BE0C /* UserTypeChoice.swift */,
 			);
 			path = "Sign-In";
 			sourceTree = "<group>";
@@ -121,6 +123,7 @@
 		4747386123F92CD100F85A0A /* Doctor */ = {
 			isa = PBXGroup;
 			children = (
+				47C2B20E23F9342E0019BE0C /* Doctor-Home.swift */,
 			);
 			path = Doctor;
 			sourceTree = "<group>";
@@ -328,8 +331,9 @@
 				4747385F23F92C7100F85A0A /* Doctor Sign Up.swift in Sources */,
 				479F1F9B23F8DB3300EFA6DD /* AppDelegate.swift in Sources */,
 				4747385523F92B7D00F85A0A /* DoctorGeneral.swift in Sources */,
-				4747385723F92BC200F85A0A /* UserType-Choice.swift in Sources */,
+				47C2B20F23F9342E0019BE0C /* Doctor-Home.swift in Sources */,
 				4747385923F92C0200F85A0A /* Patient Log In.swift in Sources */,
+				47C2B25023F93DA30019BE0C /* UserTypeChoice.swift in Sources */,
 				4747385B23F92C2E00F85A0A /* Doctor Log In.swift in Sources */,
 				4747386323F92D7400F85A0A /* Patient-Home.swift in Sources */,
 				4747385D23F92C4B00F85A0A /* Patient Sign Up.swift in Sources */,
