@@ -6,4 +6,4 @@
 //  Copyright © 2020 Can Koz. All rights reserved.
 //
 
-import Foundation
+import UIKit
