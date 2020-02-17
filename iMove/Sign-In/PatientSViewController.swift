@@ -41,6 +41,9 @@ class PatientSViewController: UIViewController {
     
     
     @IBAction func patientSignupTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
     
 

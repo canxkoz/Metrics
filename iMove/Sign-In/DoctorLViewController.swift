@@ -10,16 +10,15 @@ import UIKit
 
 class DoctorLViewController: UIViewController {
 
+
+    @IBOutlet weak var doctorEmailL: UITextField!
     
-    @IBOutlet weak var doctorEmailLoginInfo: UITextField!
-    
-    @IBOutlet weak var doctorPasswordLoginInfo: UITextField!
+    @IBOutlet weak var doctorPasswordL: UITextField!
     
     
-    @IBOutlet weak var doctorLoginButton: UIButton!
+    @IBOutlet weak var doctorLogInButton: UIButton!
     
-    @IBOutlet weak var errorLabel: UILabel!
-    
+    @IBOutlet weak var doctorLogInError: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,7 +36,10 @@ class DoctorLViewController: UIViewController {
     }
     */
 
-    
-    @IBAction func doctorLoginTapped(_ sender: Any) {
+
+    @IBAction func doctorLogInButtonTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
 }

@@ -10,9 +10,9 @@ import UIKit
 
 class DoctorGViewController: UIViewController {
 
-    @IBOutlet weak var doctorLogInButton: UIButton!
+    @IBOutlet weak var doctorL: UIButton!
     
-    @IBOutlet weak var doctorSignUpButton: UIButton!
+    @IBOutlet weak var doctorS: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +31,15 @@ class DoctorGViewController: UIViewController {
     }
     */
 
-    @IBAction func doctorSignUpTapped(_ sender: Any) {
+    @IBAction func doctorLTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
     
-    @IBAction func doctorLogInTapped(_ sender: Any) {
+    @IBAction func doctorSTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
 }

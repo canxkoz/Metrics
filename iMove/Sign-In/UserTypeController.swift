@@ -34,10 +34,16 @@ class UserTypeController: UIViewController {
 
     
     @IBAction func doctorTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
     
     
     @IBAction func patientTapped(_ sender: Any) {
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
+         
+         present(mainNavigationController, animated: true, completion: nil)
     }
     
 }

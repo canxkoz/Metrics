@@ -1,5 +1,5 @@
 //
-//  PatientGViewController.swift
+//  MainNavigationController.swift
 //  iMove
 //
 //  Created by Can Koz on 2/16/20.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-class PatientGViewController: UIViewController {
+class MainNavigationController: UINavigationController {
 
-
-    @IBOutlet weak var patientSignUpButton: UIButton!
-    
-    @IBOutlet weak var patientLogInButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,11 +27,4 @@ class PatientGViewController: UIViewController {
     }
     */
 
-
-    @IBAction func patientLogInTapped(_ sender: Any) {
-        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController") as! MainNavigationController
-         
-         present(mainNavigationController, animated: true, completion: nil)
-    }
-    
 }
